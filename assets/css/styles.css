@@ -1,0 +1,95 @@
+.bg-grey {
+  position: absolute;
+  height: 127px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #eef5fb;
+}
+
+.josefin-font {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+}
+
+.dancing-font {
+  font-family: "Dancing Script", cursive;
+  margin-top: 55px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-110 {
+  font-size: 110px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.color-251605 {
+  color: #251605;
+}
+
+.color-3772FF {
+  color: #3772ff;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  padding-top: 127px;
+}
+
+.rect {
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  left: 0px;
+  top: 730px;
+
+  background: #eef5fb;
+}
+
+@media (max-width: 760px) {
+  #hero h1 {
+    font-size: 55px !important;
+  }
+  #hero img {
+    width: inherit;
+  }
+  #hero {
+    justify-content: center;
+    text-align: center;
+  }
+  .gymkhana {
+    top: -28px !important;
+    padding-right: 10px;
+  }
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+  .container-fluid {
+    margin: 0px 0px 0px 0px !important;
+    flex-wrap: nowrap !important;
+  }
+  #hero p {
+    padding: 0px 10px 0px 10px !important;
+  }
+  .rect {
+    top: 560px;
+  }
+}
