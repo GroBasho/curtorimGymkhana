@@ -1,9 +1,5 @@
 .bg-grey {
-  position: absolute;
-  height: 127px;
   width: 100%;
-  left: 0px;
-  top: 0px;
   background: #eef5fb;
 }
 
@@ -24,12 +20,20 @@
   font-size: 20px;
 }
 
+.fs-24 {
+  font-size: 24px;
+}
+
 .fs-32 {
   font-size: 32px;
 }
 
 .fs-110 {
   font-size: 110px;
+}
+
+.fw-400 {
+  font-weight: 400;
 }
 
 .fw-600 {
@@ -40,6 +44,10 @@
   font-weight: 700;
 }
 
+.color-black {
+  color: #000000;
+}
+
 .color-251605 {
   color: #251605;
 }
@@ -48,23 +56,103 @@
   color: #3772ff;
 }
 
+a:hover {
+  color: #3772ff !important;
+}
+
 #hero {
   width: 100%;
-  height: 100vh;
-  padding-top: 127px;
+  /* height: 100vh; */
+  padding-top: 50px;
+}
+
+.svg1 {
+  width: 100%;
+  height: 50px;
+  left: 0px;
+
+  background: linear-gradient(180deg, rgba(238, 244, 249, 0) 0%, #bdd8ef 100%);
+  border-bottom: 1px solid #bdd8ef;
+}
+.svg2 {
+  width: 100%;
+  height: 50px;
+  left: 0px;
+
+  background: linear-gradient(180deg, #bdd8ef 0%, rgba(238, 245, 251, 0) 100%);
+}
+
+#committe img {
+  border-radius: 10px;
+}
+
+.group-commitee img {
+  border-radius: 20px;
+}
+
+.sbutton {
+  width: 60px;
+  height: 60px;
+  right: 30px;
+  bottom: 50px;
+  position: fixed;
+  background: #bdd8ef;
+  border-radius: 50%;
+  z-index: 1111;
+}
+
+.sbutton:hover {
+  cursor: pointer;
+}
+
+.smenu {
+  border-radius: 50px 50px 0px 0px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  height: 300px;
+  bottom: 50px;
+  position: absolute;
+  -webkit-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
+}
+
+.smenu li {
+  position: relative;
+  width: 60px;
+  height: 50px;
+  bottom: 0px;
+  list-style: none;
+}
+
+.smenu li a svg {
+  width: 50px;
+  height: 50px;
+}
+
+.smenu.share {
+  opacity: 1;
+  top: -100;
 }
 
 .rect {
-  position: absolute;
   width: 100%;
-  height: 64px;
-  left: 0px;
-  top: 730px;
 
   background: #eef5fb;
 }
 
-@media (max-width: 760px) {
+.rect1 {
+  width: 100%;
+
+  background: #bdd8ef;
+}
+
+@media (max-width: 980px) {
+  .navbar object {
+    height: 50px;
+    width: 50px;
+  }
   #hero h1 {
     font-size: 55px !important;
   }
@@ -76,7 +164,7 @@
     text-align: center;
   }
   .gymkhana {
-    top: -28px !important;
+    top: 18px !important;
     padding-right: 10px;
   }
   .navbar-brand {
@@ -84,12 +172,17 @@
   }
   .container-fluid {
     margin: 0px 0px 0px 0px !important;
-    flex-wrap: nowrap !important;
   }
   #hero p {
     padding: 0px 10px 0px 10px !important;
   }
   .rect {
     top: 560px;
+  }
+  #committe h1 {
+    font-size: 55px;
+  }
+  .group-commitee img {
+    width: inherit;
   }
 }
