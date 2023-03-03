@@ -28,7 +28,7 @@
   font-size: 32px;
 }
 
-.fs-100{
+.fs-100 {
   font-size: 100px;
 }
 
@@ -96,6 +96,7 @@ a:hover {
 
 .share-wrapper {
   height: 60px;
+  bottom: 30px;
 }
 
 .share-wrapper .share {
@@ -181,7 +182,7 @@ a:hover {
   color: deeppink;
 }
 
-.president-list-item{
+.president-list-item {
   max-width: 16rem;
   padding-left: 1.5rem;
 }
@@ -190,13 +191,13 @@ a:hover {
   font-weight: bold;
 }
 
-.president-list-item .period{
-  margin-bottom: .5rem;
+.president-list-item .period {
+  margin-bottom: 0.5rem;
   font-weight: 100;
 }
 
-.president-list li::marker{
-  content:"\004F";
+.president-list li::marker {
+  content: "\004F";
   font-size: 1.5rem;
   font-weight: 700;
   color: black;
@@ -213,6 +214,14 @@ a:hover {
   width: 100%;
 
   background: #bdd8ef;
+}
+
+.rect div ul a {
+  color: #808080 !important;
+  padding-right: 10px;
+}
+.rect div ul a:hover {
+  color: red !important;
 }
 
 @media (max-width: 980px) {
