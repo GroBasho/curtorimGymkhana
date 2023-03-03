@@ -1,5 +1,6 @@
 .image-item{
-    border-radius: 2.5rem;
+    /* border-radius: 2.5rem; */
+    max-width: 45%;
 }
 @media (max-width: 580px) {
     .image-item{
