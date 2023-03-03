@@ -90,50 +90,91 @@ a:hover {
   border-radius: 20px;
 }
 
-.sbutton {
+.share-wrapper {
+  height: 60px;
+}
+
+.share-wrapper .share {
   width: 60px;
   height: 60px;
-  right: 30px;
-  bottom: 50px;
-  position: fixed;
-  background: #bdd8ef;
   border-radius: 50%;
-  z-index: 1111;
-}
-
-.sbutton:hover {
+  color: #000000;
+  background: #bdd8ef;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 25px;
   cursor: pointer;
+  right: 30px;
+  transition: 0.4s;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.28);
+  z-index: 111111;
 }
-
-.smenu {
-  border-radius: 50px 50px 0px 0px;
-  margin: 0;
+.share-wrapper .share.active {
+  background-color: #3772ff;
+}
+.share-wrapper .share.active + .social li {
+  transform: scale(1);
+}
+.share-wrapper .share.active + .social li:hover {
+  transform: scale(1.1);
+}
+.share-wrapper .social {
   opacity: 0;
-  padding: 0;
-  height: 300px;
-  bottom: 50px;
+  background: #eef5fb;
+  display: none;
+  list-style-type: none;
   position: absolute;
-  -webkit-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;
-}
-
-.smenu li {
-  position: relative;
+  bottom: 20px;
   width: 60px;
-  height: 50px;
-  bottom: 0px;
-  list-style: none;
+  right: 30px;
+  padding: 0;
+  margin: 0;
+  transform: translate(-3rem, 3rem);
+  border-radius: 50px 50px 0px 0px;
+  transition: visibility 0.4s, opacity 0.4s, -webkit-transform 0.4s;
 }
-
-.smenu li a svg {
-  width: 50px;
-  height: 50px;
-}
-
-.smenu.share {
+.share-wrapper .social.active {
   opacity: 1;
-  top: -100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(0);
+}
+.share-wrapper .social li {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #fff;
+  text-align: center;
+  line-height: 2.1;
+  font-size: 25px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  box-shadow: 0.5px 0.87px 4px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+  transform: scale(0.4);
+}
+.share-wrapper .social li .facebook {
+  color: #3a589e;
+}
+.share-wrapper .social li .twitter {
+  color: #5fa9dd;
+}
+.share-wrapper .social li .whatsapp {
+  color: #2e8452;
+}
+.share-wrapper .social li .google {
+  color: #df4b38;
+}
+.share-wrapper .social li .pinterest {
+  color: #cd2129;
+}
+.share-wrapper .social li .youtube {
+  color: #cf2227;
+}
+.share-wrapper .social li .instagram {
+  color: deeppink;
 }
 
 .rect {
