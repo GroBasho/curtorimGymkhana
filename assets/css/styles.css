@@ -28,6 +28,10 @@
   font-size: 32px;
 }
 
+.fs-100{
+  font-size: 100px;
+}
+
 .fs-110 {
   font-size: 110px;
 }
@@ -175,6 +179,28 @@ a:hover {
 }
 .share-wrapper .social li .instagram {
   color: deeppink;
+}
+
+.president-list-item{
+  max-width: 16rem;
+  padding-left: 1.5rem;
+}
+
+.president-list-item p {
+  font-weight: bold;
+}
+
+.president-list-item .period{
+  margin-bottom: .5rem;
+  font-weight: 100;
+}
+
+.president-list li::marker{
+  content:"\004F";
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  vertical-align: bottom;
 }
 
 .rect {
