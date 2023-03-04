@@ -60,7 +60,7 @@
   color: #3772ff;
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
   /* border-color: #3773ffde;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(104, 196, 239, 0.493);
   outline: 0 none; */
@@ -72,7 +72,7 @@ a:hover {
   color: #3772ff !important;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.6rem;
   font-weight: 800;
   font-variant: small-caps;
@@ -197,19 +197,31 @@ a:hover {
 }
 
 .president-list-item {
-  max-width: 16rem;
+  max-width: 18rem;
   padding-left: 1.5rem;
 }
 
-
-
 .president-list-item p {
-  font-weight: bold;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+}
+
+.president-details {
+  background: rgb(255, 247, 235);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 247, 235, 1) 0%,
+    rgba(238, 245, 251, 1) 100%
+  );
+  padding: .8rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
 .president-list-item .period {
   margin-bottom: 0.5rem;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .president-list li::marker {
@@ -220,7 +232,7 @@ a:hover {
   vertical-align: bottom;
 }
 
-.current-president li::marker{
+.current-president li::marker {
   content: "\27A8";
   font-size: 1.5rem;
   font-weight: 700;
