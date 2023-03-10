@@ -26,6 +26,9 @@
   }
 
   @media (max-width: 420px) {
+    .notice-card{
+      padding: 1.5rem 1.2rem;
+  }
     .notice-img{
       max-width: 200px;
     }
