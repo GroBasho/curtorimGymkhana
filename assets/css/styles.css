@@ -62,12 +62,12 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .cnt223 {
-    max-width: 80%;
+    max-width: 95%;
   }
   #pop-image {
     max-width: 98%;
     margin: auto;
-    height: 26rem;
+    height: 30rem;
   }
 }
 
