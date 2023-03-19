@@ -30,16 +30,16 @@
 #pop-image {
   max-width: 98%;
   margin: auto;
-  height: 20rem;
+  height: 35rem;
 }
 
 .cnt223 {
   /* min-width: 600px; */
 
   /* width: 600px; */
-  max-width: 80%;
+  max-width: 50%;
   min-height: 150px;
-  margin: 100px auto;
+  margin: 70px auto;
   background: #f3f3f3;
   position: relative;
   top: -50px;
@@ -47,6 +47,28 @@
   padding: 15px 35px;
   border-radius: 5px;
   box-shadow: 0 2px 5px #000;
+}
+/* //media query for mobile device? */
+@media (min-width: 481px) and (max-width: 767px) {
+  .cnt223 {
+    max-width: 80%;
+  }
+  #pop-image {
+    max-width: 98%;
+    margin: auto;
+    height: 30rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .cnt223 {
+    max-width: 80%;
+  }
+  #pop-image {
+    max-width: 98%;
+    margin: auto;
+    height: 26rem;
+  }
 }
 
 .cnt223 p {
