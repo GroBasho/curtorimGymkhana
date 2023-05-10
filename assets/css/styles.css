@@ -30,7 +30,7 @@
 #pop-image {
   width: 98%;
   margin: auto;
-  height: 18rem;
+  max-height: 35rem;
 }
 
 .cnt223 {
