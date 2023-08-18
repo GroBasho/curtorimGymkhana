@@ -79,8 +79,8 @@
   background-image: url(../images/gallery/20-small.png);
 }
 
-@media (max-width: 580px) {
+/* @media (max-width: 580px) {
   .image-item {
-    max-width: 80%;
+    max-width: %;
   }
-}
+} */
